@@ -1,4 +1,5 @@
 <script type="text/javascript">
+	let domain = "http://2.richsapp.sinaapp.com"
 　　function GetUrlRelativePath()
 　　{
 　　　　var url = document.location.toString();
@@ -12,5 +13,5 @@
 　　　　}
 　　　　return relUrl;
 　　}
-alert(GetUrlRelativePath());
+window.location.href = domain + GetUrlRelativePath();
 </script>
